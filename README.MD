@@ -112,6 +112,12 @@ You can switch between datasets (e.g., the default one using `data/` or the Weib
 
 This codebase is developed based on the implementation of [MMDFND](https://github.com/yutchina/MMDFND/tree/main). We sincerely thank the original authors for sharing their code and groundwork.
 
+## Log
+Based on the prepared code, experiments were conducted on the `weibo` and `weibo21` datasets. Refer to `src/train_weibo.log` and `src/train_weibo21.log` for the respective logs.
+
+Note: Slight discrepancies in the results might be observed across different hardware configurations.
+
+
 ## Citation
 
 If you find this work useful for your research, please consider citing our paper:
