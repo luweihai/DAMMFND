@@ -30,7 +30,7 @@ The project is organized as follows:
 │   ├── train_loader.pkl
 │   ├── train_origin.csv
 │   └── ...
-├── data                    # Processed data for the primary/default dataset (e.g., PHEME)
+├── data                    # Processed data for the primary/weibo dataset 
 │   ├── train_clip_loader.pkl
 │   ├── train_loader.pkl
 │   ├── train_origin.csv
@@ -82,9 +82,7 @@ The project is organized as follows:
 
 ## Data Preparation
 
-1.  **Download Raw Data:** Obtain the raw datasets (e.g., PHEME, Weibo, Weibo_21). The structure suggests raw data files (`.csv`, `.xlsx`) should be placed in the `weibo/` and `weibo21/` directories, and potentially another directory for the dataset corresponding to `data/`. Please follow the specific instructions from the [MMDFND repository's Data Preparation section](https://github.com/yutchina/MMDFND/tree/main#data-preparation) for acquiring and initially placing the raw data.
-2.  **Run Preprocessing Scripts:** Execute the preprocessing scripts located in the `src/` directory (e.g., `data_pre.py`, `clip_data_pre.py`, `weibo21_data_pre.py`, `weibo21_clip_data_pre.py`) to generate the necessary `.pkl` files and other processed data formats.
-3.  **Place Processed Data:** Ensure the output processed files (e.g., `train_loader.pkl`, `train_clip_loader.pkl`) are saved into the correct corresponding directories (`data/` or `Weibo_21/`).
+Please follow the specific instructions from the [MMDFND repository's Data Preparation section](https://github.com/yutchina/MMDFND/tree/main#data-preparation) for acquiring and initially placing the raw data.
 
 **Note:** If the data linked or described by the MMDFND authors is unavailable, please contact `luweihai@pku.edu.cn` to request the complete dataset.
 
