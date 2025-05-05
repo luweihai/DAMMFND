@@ -1,0 +1,11 @@
+cn_clip
+transformers
+pandas
+ftfy
+regex
+tqdm
+scikit-learn
+positional_encodings
+openpyxl
+numpy==1.23.2
+git+https://github.com/openai/CLIP.git
